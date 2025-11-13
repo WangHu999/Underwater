@@ -1,0 +1,8 @@
+{"time":"2025-01-07T09:49:54.0593553+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-07T09:49:54.0593553+08:00","level":"INFO","msg":"created symlink","path":"wandb\\run-20250107_094954-i66arntd\\logs\\debug-core.log"}
+{"time":"2025-01-07T09:49:54.1714853+08:00","level":"INFO","msg":"created new stream","id":"i66arntd"}
+{"time":"2025-01-07T09:49:54.1720525+08:00","level":"INFO","msg":"stream: started","id":"i66arntd"}
+{"time":"2025-01-07T09:49:54.1720525+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"i66arntd"}
+{"time":"2025-01-07T09:49:54.1720525+08:00","level":"INFO","msg":"handler: started","stream_id":"i66arntd"}
+{"time":"2025-01-07T09:49:54.1720525+08:00","level":"INFO","msg":"sender: started","stream_id":"i66arntd"}
+{"time":"2025-01-07T09:49:55.4673468+08:00","level":"INFO","msg":"Starting system monitor"}

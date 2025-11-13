@@ -1,0 +1,16 @@
+{"time":"2025-01-06T20:36:49.5262423+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-06T20:36:49.5262423+08:00","level":"INFO","msg":"created symlink","path":"wandb\\run-20250106_203649-vgplv2ke\\logs\\debug-core.log"}
+{"time":"2025-01-06T20:36:49.6509219+08:00","level":"INFO","msg":"created new stream","id":"vgplv2ke"}
+{"time":"2025-01-06T20:36:49.6509219+08:00","level":"INFO","msg":"stream: started","id":"vgplv2ke"}
+{"time":"2025-01-06T20:36:49.6509219+08:00","level":"INFO","msg":"handler: started","stream_id":"vgplv2ke"}
+{"time":"2025-01-06T20:36:49.6509219+08:00","level":"INFO","msg":"sender: started","stream_id":"vgplv2ke"}
+{"time":"2025-01-06T20:36:49.6514568+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vgplv2ke"}
+{"time":"2025-01-06T20:36:50.9348234+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-06T20:37:09.2525676+08:00","level":"INFO","msg":"stream: closing","id":"vgplv2ke"}
+{"time":"2025-01-06T20:37:09.2525676+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-06T20:37:09.2532286+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-06T20:37:10.3530476+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-06T20:37:11.1620717+08:00","level":"INFO","msg":"handler: closed","stream_id":"vgplv2ke"}
+{"time":"2025-01-06T20:37:11.1620717+08:00","level":"INFO","msg":"sender: closed","stream_id":"vgplv2ke"}
+{"time":"2025-01-06T20:37:11.1620717+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vgplv2ke"}
+{"time":"2025-01-06T20:37:11.1620717+08:00","level":"INFO","msg":"stream: closed","id":"vgplv2ke"}

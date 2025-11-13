@@ -1,0 +1,16 @@
+{"time":"2025-01-06T20:59:14.041213+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-06T20:59:14.041213+08:00","level":"INFO","msg":"created symlink","path":"wandb\\run-20250106_205913-fbilswvx\\logs\\debug-core.log"}
+{"time":"2025-01-06T20:59:14.153886+08:00","level":"INFO","msg":"created new stream","id":"fbilswvx"}
+{"time":"2025-01-06T20:59:14.1544291+08:00","level":"INFO","msg":"stream: started","id":"fbilswvx"}
+{"time":"2025-01-06T20:59:14.1544291+08:00","level":"INFO","msg":"handler: started","stream_id":"fbilswvx"}
+{"time":"2025-01-06T20:59:14.1544291+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"fbilswvx"}
+{"time":"2025-01-06T20:59:14.1544291+08:00","level":"INFO","msg":"sender: started","stream_id":"fbilswvx"}
+{"time":"2025-01-06T20:59:15.4579935+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-06T20:59:15.6150431+08:00","level":"INFO","msg":"stream: closing","id":"fbilswvx"}
+{"time":"2025-01-06T20:59:15.6150431+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-06T20:59:15.6150431+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-06T20:59:17.371142+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-06T20:59:18.2027291+08:00","level":"INFO","msg":"handler: closed","stream_id":"fbilswvx"}
+{"time":"2025-01-06T20:59:18.2027291+08:00","level":"INFO","msg":"sender: closed","stream_id":"fbilswvx"}
+{"time":"2025-01-06T20:59:18.2027291+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fbilswvx"}
+{"time":"2025-01-06T20:59:18.2033289+08:00","level":"INFO","msg":"stream: closed","id":"fbilswvx"}

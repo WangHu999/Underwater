@@ -1,0 +1,26 @@
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+You are using a CUDA device ('NVIDIA GeForce RTX 4060 Ti') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+C:\Users\WH_Ha\.conda\envs\pytorch\lib\site-packages\pytorch_lightning\callbacks\model_checkpoint.py:617: UserWarning: Checkpoint directory ./checkpoints/UIEB/ exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name      | Type           | Params
+---------------------------------------------
+0 | ssim_loss | InferenceModel | 0
+1 | per_loss  | PerpetualLoss  | 1.7 M
+2 | l1_loss   | MyLoss         | 0
+3 | char_loss | CharLoss       | 0
+4 | val_ssim  | InferenceModel | 0
+5 | val_psnr  | InferenceModel | 0
+6 | model     | UIEC2Net       | 534 K
+---------------------------------------------
+534 K     Trainable params
+1.7 M     Non-trainable params
+2.3 M     Total params
+9.082     Total estimated model params size (MB)
+Epoch 0: 100%|██████████| 100/100 [01:21<00:00,  1.23it/s, v_num=z40p]
+                                                                        
+`Trainer.fit` stopped: `max_epochs=1` reached.

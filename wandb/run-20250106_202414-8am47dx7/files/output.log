@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 209, in <module>
+    main()
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 166, in main
+    model = TrainUIEModel(hparams)
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 42, in __init__
+    vgg_model = vgg16(weights = VGG16_Weights.IMAGENET1K_V1).cuda().eval()
+  File "C:\Users\WH_Ha\.conda\envs\uie\lib\site-packages\torch\nn\modules\module.py", line 1050, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\WH_Ha\.conda\envs\uie\lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\WH_Ha\.conda\envs\uie\lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\WH_Ha\.conda\envs\uie\lib\site-packages\torch\nn\modules\module.py", line 927, in _apply
+    param_applied = fn(param)
+  File "C:\Users\WH_Ha\.conda\envs\uie\lib\site-packages\torch\nn\modules\module.py", line 1050, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "C:\Users\WH_Ha\.conda\envs\uie\lib\site-packages\torch\cuda\__init__.py", line 310, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled

@@ -1,0 +1,11 @@
+{"time":"2025-01-06T22:00:22.4559354+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-06T22:00:22.4559354+08:00","level":"INFO","msg":"created symlink","path":"wandb\\run-20250106_220022-ncfm27br\\logs\\debug-core.log"}
+{"time":"2025-01-06T22:00:22.5711954+08:00","level":"INFO","msg":"created new stream","id":"ncfm27br"}
+{"time":"2025-01-06T22:00:22.5711954+08:00","level":"INFO","msg":"stream: started","id":"ncfm27br"}
+{"time":"2025-01-06T22:00:22.5711954+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"ncfm27br"}
+{"time":"2025-01-06T22:00:22.5711954+08:00","level":"INFO","msg":"handler: started","stream_id":"ncfm27br"}
+{"time":"2025-01-06T22:00:22.5711954+08:00","level":"INFO","msg":"sender: started","stream_id":"ncfm27br"}
+{"time":"2025-01-06T22:00:23.925791+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-06T22:01:48.7817703+08:00","level":"INFO","msg":"stream: closing","id":"ncfm27br"}
+{"time":"2025-01-06T22:01:48.7817703+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-06T22:01:48.7827816+08:00","level":"INFO","msg":"Stopped system monitor"}

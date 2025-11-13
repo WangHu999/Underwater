@@ -1,0 +1,21 @@
+{"time":"2025-01-07T21:40:13.133999+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-07T21:40:13.133999+08:00","level":"INFO","msg":"created symlink","path":"wandb\\run-20250107_214012-edfxwc7d\\logs\\debug-core.log"}
+{"time":"2025-01-07T21:40:13.2572957+08:00","level":"INFO","msg":"created new stream","id":"edfxwc7d"}
+{"time":"2025-01-07T21:40:13.2578022+08:00","level":"INFO","msg":"stream: started","id":"edfxwc7d"}
+{"time":"2025-01-07T21:40:13.2578022+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"edfxwc7d"}
+{"time":"2025-01-07T21:40:13.2578022+08:00","level":"INFO","msg":"handler: started","stream_id":"edfxwc7d"}
+{"time":"2025-01-07T21:40:13.2578022+08:00","level":"INFO","msg":"sender: started","stream_id":"edfxwc7d"}
+{"time":"2025-01-07T21:40:34.3060856+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-01-07T21:40:57.4760163+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-01-07T21:41:23.1731575+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-01-07T21:41:44.1258047+08:00","level":"INFO","msg":"stream: closing","id":"edfxwc7d"}
+{"time":"2025-01-07T21:41:52.3492478+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-01-07T21:42:30.4161119+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-01-07T21:43:25.4910293+08:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-01-07T21:43:25.8376022+08:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-07T21:43:25.8376022+08:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project /UIE not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-01-07T21:43:25.8387009+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-07T21:43:25.8387009+08:00","level":"INFO","msg":"handler: closed","stream_id":"edfxwc7d"}
+{"time":"2025-01-07T21:43:25.8387009+08:00","level":"INFO","msg":"sender: closed","stream_id":"edfxwc7d"}
+{"time":"2025-01-07T21:43:25.8387009+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"edfxwc7d"}
+{"time":"2025-01-07T21:43:25.8392447+08:00","level":"INFO","msg":"stream: closed","id":"edfxwc7d"}

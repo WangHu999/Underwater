@@ -1,0 +1,9 @@
+{"time":"2025-01-07T21:14:08.254827+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-07T21:14:08.254827+08:00","level":"INFO","msg":"created symlink","path":"wandb\\run-20250107_211408-wvojd81t\\logs\\debug-core.log"}
+{"time":"2025-01-07T21:14:08.5156236+08:00","level":"INFO","msg":"created new stream","id":"wvojd81t"}
+{"time":"2025-01-07T21:14:08.5156236+08:00","level":"INFO","msg":"stream: started","id":"wvojd81t"}
+{"time":"2025-01-07T21:14:08.5161318+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"wvojd81t"}
+{"time":"2025-01-07T21:14:08.5161318+08:00","level":"INFO","msg":"sender: started","stream_id":"wvojd81t"}
+{"time":"2025-01-07T21:14:08.5161318+08:00","level":"INFO","msg":"handler: started","stream_id":"wvojd81t"}
+{"time":"2025-01-07T21:14:34.0979671+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2025-01-07T21:14:57.271269+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}

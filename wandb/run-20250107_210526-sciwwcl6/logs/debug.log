@@ -1,0 +1,100 @@
+2025-01-07 21:05:26,109 INFO    MainThread:46044 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2025-01-07 21:05:26,109 INFO    MainThread:46044 [wandb_setup.py:_flush():68] Configure stats pid to 46044
+2025-01-07 21:05:26,109 INFO    MainThread:46044 [wandb_setup.py:_flush():68] Loading settings from C:\Users\cestx\.config\wandb\settings
+2025-01-07 21:05:26,109 INFO    MainThread:46044 [wandb_setup.py:_flush():68] Loading settings from D:\Student_FILE\HW\UIE\UIEC2Net_UIEB\wandb\settings
+2025-01-07 21:05:26,109 INFO    MainThread:46044 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-07 21:05:26,109 INFO    MainThread:46044 [wandb_init.py:_log_setup():528] Logging user logs to .\wandb\run-20250107_210526-sciwwcl6\logs\debug.log
+2025-01-07 21:05:26,110 INFO    MainThread:46044 [wandb_init.py:_log_setup():529] Logging internal logs to .\wandb\run-20250107_210526-sciwwcl6\logs\debug-internal.log
+2025-01-07 21:05:26,110 INFO    MainThread:46044 [wandb_init.py:init():644] calling init triggers
+2025-01-07 21:05:26,110 INFO    MainThread:46044 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {}
+2025-01-07 21:05:26,110 INFO    MainThread:46044 [wandb_init.py:init():680] starting backend
+2025-01-07 21:05:26,110 INFO    MainThread:46044 [wandb_init.py:init():684] sending inform_init request
+2025-01-07 21:05:26,120 INFO    MainThread:46044 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-07 21:05:26,121 INFO    MainThread:46044 [wandb_init.py:init():697] backend started and connected
+2025-01-07 21:05:26,121 INFO    MainThread:46044 [wandb_init.py:init():790] updated telemetry
+2025-01-07 21:05:26,150 INFO    MainThread:46044 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2025-01-07 21:05:39,310 INFO    Thread-7 (wrapped_target):46044 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connectionpool.py", line 775, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connectionpool.py", line 1044, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connection.py", line 730, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connection.py", line 909, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\util\ssl_.py", line 469, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\util\ssl_.py", line 513, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connectionpool.py", line 775, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connectionpool.py", line 1044, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connection.py", line 730, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\connection.py", line 909, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\util\ssl_.py", line 469, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\urllib3\util\ssl_.py", line 513, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\wandb\sdk\internal\internal_api.py", line 393, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\requests\adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-01-07 21:06:56,870 ERROR   MainThread:46044 [wandb_init.py:init():849] encountered error: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-01-07 21:06:56,871 ERROR   MainThread:46044 [wandb_init.py:init():1308] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\wandb\sdk\wandb_init.py", line 1298, in init
+    return wi.init()
+  File "C:\Users\cestx\anaconda3\envs\UIE\lib\site-packages\wandb\sdk\wandb_init.py", line 855, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-01-07 21:06:56,916 WARNING MsgRouterThr:46044 [router.py:message_loop():75] message_loop has been closed

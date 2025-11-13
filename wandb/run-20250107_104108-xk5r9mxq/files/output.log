@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 221, in <module>
+    main()
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 178, in main
+    model = TrainUIEModel(hparams)
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 63, in __init__
+    self.model = model_zoos[hparams.model_name]()
+TypeError: 'module' object is not callable
+Traceback (most recent call last):
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 221, in <module>
+    main()
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 178, in main
+    model = TrainUIEModel(hparams)
+  File "C:\Code\Python\UIE\UIEC2Net\train_UIEB.py", line 63, in __init__
+    self.model = model_zoos[hparams.model_name]()
+TypeError: 'module' object is not callable
